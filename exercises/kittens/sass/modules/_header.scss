@@ -1,0 +1,42 @@
+
+.header {
+  background: $darkgrey;
+  border-bottom: $border-width solid $black;
+  padding: 1em;
+
+  h1 {
+    color: $blue;
+    font-family: $header-h1-font-family;
+    font-size: 3em;
+    margin: .25em 0;
+    text-shadow: 1px 1px 0px $lightgrey;
+  }
+
+  nav {
+    float: right;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    a {
+      background: $blue;
+      border-radius: $border-radius;
+      color: $beige;
+      display: block;
+      margin-right: 1em;
+      padding: .5em 1em;
+      text-decoration: none;
+
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+    }
+
+  }
+}
